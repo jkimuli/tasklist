@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Task List</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="task-input">
+            <h3>Task List</h3>
+            <form method="post" id="task-form">
+                <input class="input-field" type="text" id="task" placeholder="Add New Task" maxlength="100">
+                <input class="btn" type="submit" value="Add Task" >
+            </form>
+
+        </div>
+
+        <div class="task-search">
+            <hr>
+            <h3> Search Tasks</h3>
+            <input type="text" class="input-field" placeholder="Search" id="search-input">
+
+        </div>
+
+        <div class="task-list">
+            
+            <ul class="list">
+
+            </ul>
+
+            <a href="#" id="clear-tasks" class="btn">Clear Tasks</a>
+        </div>
+    </div>
+    
+</body>
+
+<script src="app.js"></script>
+</html>
